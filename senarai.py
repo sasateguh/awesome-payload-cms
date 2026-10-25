@@ -374,7 +374,7 @@ def jana(cfg: dict, templat: dict, entri: list[Entri], produk: bool | dict) -> d
         cara = t["cara"].format(w_bintang=f"{p['bintang']:g}", w_aktif=f"{p['aktif']:g}", hari=a["hari_tidak_aktif"],
                                 bintang_min=a["bintang_min"], bundar=bundar)
         # Kandungan tidak memaut "menyumbang" (awesome-lint `awesome-toc`); tiada bahagian lesen (`awesome-license`).
-        tetap = [(t["cara_tajuk"], cara)]
+        tetap = [(t["cara_tajuk"], cara), (t["kad_tajuk"], t["kad"])]   # awesome-toc: setiap ## selain Contributing dalam Kandungan
         isi = [f"# {s['tajuk']} {t['lencana']}", t["pautan_bahasa"], f"> {s['pembuka']}"]
         if produk:
             pr = cfg["produk"]
@@ -382,7 +382,7 @@ def jana(cfg: dict, templat: dict, entri: list[Entri], produk: bool | dict) -> d
             isi.append(t["produk"].format(teks=(pr.get(b) or t["produk_lalai"]).format(**ganti)))
         isi.append(f"## {t['kandungan']}")
         isi.append("\n".join(f"- [{h}](#{slug(h)})" for h, _ in bahagian + tetap))
-        for h, badan in bahagian + tetap + [(t["sumbang_tajuk"], t["sumbang"]), (t["kad_tajuk"], t["kad"])]:
+        for h, badan in bahagian + tetap + [(t["sumbang_tajuk"], t["sumbang"])]:
             isi += [f"## {h}", badan]
         keluar[t["fail"]] = "\n\n".join(isi) + "\n"
     # Satu contributing.md dua bahasa (awesome-lint mewajibkan nama ini); kriteria = nombor config yang sama.
