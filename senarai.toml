@@ -1,0 +1,762 @@
+# Senarai Payload CMS (PELAN-senarai-niche S5, D32). Teks EN/BM di sini = teks awam: DRAF sehingga flag S6 dijawab `ok`.
+# Kurasi: entri = repo KHUSUS Payload CMS (plugin, templat, aplikasi yang dibina atasnya); repo lapuk tetap entri —
+# pangkat membuangnya (> hari_tidak_aktif) dan ia kembali sendiri bila aktif semula. `kecuali` = bukan Payload CMS
+# ("payload" keselamatan/dron/Android), contoh tutorial, senarai awesome lain, portfolio peribadi, penerangan bukan Latin.
+id = "payload"
+repo = "sasateguh/awesome-payload-cms"
+bundar_bintang = 10
+buang_fork = true
+# Calon `cari` yang ditolak semasa kurasi.
+kecuali = [
+  "89luca89/pakkero",
+  "A-poc/RedTeam-Tools",
+  "aaronksaunders/my-payload-todo-1-2025",
+  "aaronksaunders/payload-chat",
+  "aaronksaunders/payload-cms-custom-related-select-example",
+  "adrianhajdin/ecommerce",
+  "ANG13T/payload-wizard",
+  "Ascotbe/Medusa",
+  "Athena-OS/athena",
+  "Athena-OS/athena-nix",
+  "botesjuan/Burp-Suite-Certified-Practitioner-Exam-Study",
+  "brandonprry/gray_hat_csharp_code",
+  "BYTEHACKING-CREATIVE/SPYBOMB",
+  "challengerate/srjay",
+  "CodingRanjith/hackingtoolkit",
+  "cr0hn/nosqlinjection_wordlists",
+  "cytopia/badchars",
+  "daffainfo/AllAboutBugBounty",
+  "DanailMinchev/awesome-payload",
+  "Deadpool2000/Paybag",
+  "dji-sdk/Payload-SDK",
+  "EgeBalci/amber",
+  "eliboa/TegraRcmGUI",
+  "ElJaviLuki/CobaltStrike_OpenBeacon",
+  "EntySec/CamRaptor",
+  "EntySec/HatSploit",
+  "EntySec/RomBuster",
+  "evyatar9/Writeups",
+  "ffuf/pencode",
+  "foospidy/payloads",
+  "FrenchCisco/RATel",
+  "frontier-infra/avl",
+  "g0tmi1k/msfpc",
+  "GetRektBoy724/BetterXencrypt",
+  "GhostTroops/TOP",
+  "grugnoymeme/flipperzero-badUSB",
+  "Hack-with-Github/Awesome-Security-Gists",
+  "Hagrid29/PELoader",
+  "Hax4us/Apkmod",
+  "HynekPetrak/malware-jail",
+  "infobyte/evilgrade",
+  "jherr/payload-3.0-movies",
+  "kavindumadushanka972/payload-cms-ecommerce",
+  "lacymorrow/paperclip-hub",
+  "miantiao-me/aigc-weekly",
+  "Mr-Proxy-source/BadUSB-Payloads",
+  "MTK911/Attiny85",
+  "nathanlopez/Stitch",
+  "payload-box/xss-payload-list",
+  "pen4uin/java-echo-generator",
+  "pen4uin/java-memshell-generator",
+  "Plazmaz/LNKUp",
+  "postrequest/link",
+  "PRAKALP-PANDE/shopcraft",
+  "ProcessusT/Venoma",
+  "Puliczek/CVE-2021-21123-PoC-Google-Chrome",
+  "Puliczek/CVE-2021-44228-PoC-log4j-bypass-words",
+  "Puliczek/CVE-2022-0337-PoC-Google-Chrome-Microsoft-Edge-Opera",
+  "r00t-3xp10it/backdoorppt",
+  "ReaJason/MemShellParty",
+  "redcode-labs/SNOWCRASH",
+  "Redocly/openapi-sampler",
+  "ReversingID/Shellcode-Loader",
+  "s0md3v/AwesomeXSS",
+  "saawant12/orbit-store-ps5",
+  "safesploit/python-remote-session-lab-poc",
+  "sahilchaddha/rudyjs",
+  "screetsec/Brutal",
+  "SecNN/AiScan-N",
+  "Smart-Paocai/violet_Box",
+  "Snailedlt/svelte-payload-example",
+  "ssl/ezXSS",
+  "swisskyrepo/PayloadsAllTheThings",
+  "tiagorlampert/CHAOS",
+  "tobyxdd/android-ota-payload-extractor",
+  "tokyoneon/Arcane",
+  "tokyoneon/Armor",
+  "tokyoneon/Chimera",
+  "toxydose/Duckyspark",
+  "Tsuyoken/ImgBackdoor",
+  "tuconnaisyouknow/BadUSB_keyloggerInjector",
+  "tuconnaisyouknow/BadUSB_passStealer",
+  "unkn0wnh4ckr/hackers-tool-kit",
+  "VirtualAlllocEx/Payload-Download-Cradles",
+  "Voorivex/pentest-guide",
+  "vpv-group/dream-starter-kit",
+  "wafpassproject/wafpass",
+  "wgpsec/AboutSecurity",
+  "wjl110/CVE-Master",
+  "xajkep/wordlists",
+  "yasserbdj96/hiphp",
+]
+
+[en]
+tajuk = "Awesome Payload CMS"
+pembuka = "Open-source plugins, templates and apps for [Payload](https://payloadcms.com), the open-source Next.js framework and headless CMS. Ranked by stars and recent activity, refreshed every week."
+
+[ms]
+tajuk = "Senarai Berpangkat Payload CMS"
+pembuka = "Plugin, templat dan aplikasi sumber terbuka untuk [Payload](https://payloadcms.com), rangka kerja Next.js dan CMS headless sumber terbuka. Dipangkat ikut bintang dan aktiviti terkini, dikemas setiap minggu."
+
+[github]
+# Deskripsi + topik repo (D38): deskripsi lulus config/gaya.toml; topik = `gilap topik --wajib awesome,awesome-list` 25 Okt
+# (data GitHub; taksa dibuang). Teks awam — terbit bait-sama selepas kelulusan pemilik.
+penerangan = "Ranked, weekly-updated list of open-source plugins, templates and apps for Payload CMS."
+topik = ["awesome", "awesome-list", "cms", "nextjs", "headless-cms", "payloadcms", "payload-plugin", "payload-cms"]
+
+[pangkat]
+bintang = 1.0
+aktif = 1.0
+
+[ambang]
+bintang_min = 10
+hari_tidak_aktif = 365
+
+[cari]
+had = 100
+pertanyaan = [
+  "topic:payload-plugin",
+  "topic:payloadcms",
+  "topic:payload-cms",
+  "topic:payloadcms-plugin",
+  '"payload cms" plugin',
+  '"payloadcms" plugin',
+  '"payload cms" template',
+  '"payload cms" starter',
+  '"payload 3"',
+  '"payload cms" translation',
+  '"payload cms" localization',
+  '"payload cms" i18n',
+]
+
+[[kategori]]
+id = "rasmi"
+en = "Official"
+ms = "Rasmi"
+
+[[kategori]]
+id = "ai"
+en = "AI and agents"
+ms = "AI dan ejen"
+
+[[kategori]]
+id = "auth"
+en = "Authentication and access control"
+ms = "Pengesahan dan kawalan akses"
+
+[[kategori]]
+id = "admin"
+en = "Admin panel and editing"
+ms = "Panel admin dan penyuntingan"
+
+[[kategori]]
+id = "plugin"
+en = "Feature plugins"
+ms = "Plugin ciri"
+
+[[kategori]]
+id = "media"
+en = "Storage, media and search"
+ms = "Storan, media dan carian"
+
+[[kategori]]
+id = "alat"
+en = "Developer tools"
+ms = "Alat pembangun"
+
+[[kategori]]
+id = "templat"
+en = "Templates and starters"
+ms = "Templat dan kit permulaan"
+
+[[kategori]]
+id = "aplikasi"
+en = "Apps built with Payload"
+ms = "Aplikasi yang dibina dengan Payload"
+
+[[entri]]
+repo = "payloadcms/payload"
+kategori = "rasmi"
+
+[[entri]]
+repo = "payloadcms/website"
+kategori = "rasmi"
+
+[[entri]]
+repo = "payloadcms/skills"
+kategori = "rasmi"
+
+[[entri]]
+repo = "payloadcms/remix-server"
+kategori = "rasmi"
+
+[[entri]]
+repo = "payloadcms/plugin-password-protection"
+kategori = "rasmi"
+
+[[entri]]
+repo = "payloadcms/plugin-zapier"
+kategori = "rasmi"
+
+[[entri]]
+repo = "ashbuilds/payload-ai"
+kategori = "ai"
+
+[[entri]]
+repo = "disruption-hub/payloadcmsmcp"
+kategori = "ai"
+
+[[entri]]
+repo = "techiejd/payloadcms-vectorize"
+kategori = "ai"
+
+[[entri]]
+repo = "aamdmn/payload-agent"
+kategori = "ai"
+
+[[entri]]
+repo = "AlessioGr/payload-plugin-ai"
+kategori = "ai"
+
+[[entri]]
+repo = "filipzava/payload-plugin-ai-chat"
+kategori = "ai"
+
+[[entri]]
+repo = "payload-auth/payload-auth"
+kategori = "auth"
+
+[[entri]]
+repo = "UPDOT/payload-auth-plugin"
+kategori = "auth"
+
+[[entri]]
+repo = "CrawlerCode/payload-authjs"
+kategori = "auth"
+
+[[entri]]
+repo = "WilsonLe/payload-oauth2"
+kategori = "auth"
+
+[[entri]]
+repo = "joas8211/payload-tenancy"
+kategori = "auth"
+
+[[entri]]
+repo = "GeorgeHulpoi/payload-totp"
+kategori = "auth"
+
+[[entri]]
+repo = "thgh/payload-plugin-oauth"
+kategori = "auth"
+
+[[entri]]
+repo = "b3nab/payload-better-auth"
+kategori = "auth"
+
+[[entri]]
+repo = "delmaredigital/payload-better-auth"
+kategori = "auth"
+
+[[entri]]
+repo = "finkinfridom/payload-auth0-plugin"
+kategori = "auth"
+
+[[entri]]
+repo = "NouanceLabs/payload-simple-rbac"
+kategori = "auth"
+
+[[entri]]
+repo = "gousta/payload-plugin-oidc"
+kategori = "auth"
+
+[[entri]]
+repo = "GeorgeHulpoi/payload-recaptcha-v3"
+kategori = "auth"
+
+[[entri]]
+repo = "manutepowa/payload-plugin-masquerade"
+kategori = "auth"
+
+[[entri]]
+repo = "sSeewald/payload-gatekeeper"
+kategori = "auth"
+
+[[entri]]
+repo = "sinloss/payload-warding"
+kategori = "auth"
+
+[[entri]]
+repo = "Newesissrl/payload-zitadel-plugin"
+kategori = "auth"
+
+[[entri]]
+repo = "zealamic/payload-plugin-rbac"
+kategori = "auth"
+
+[[entri]]
+repo = "pemedia/payload-visual-editor"
+kategori = "admin"
+
+[[entri]]
+repo = "NouanceLabs/payload-better-fields-plugin"
+kategori = "admin"
+
+[[entri]]
+repo = "AlessioGr/payload-plugin-lexical"
+kategori = "admin"
+
+[[entri]]
+repo = "NouanceLabs/payload-dashboard-analytics"
+kategori = "admin"
+
+[[entri]]
+repo = "scorpio-99/payload-better-editor"
+kategori = "admin"
+
+[[entri]]
+repo = "AdrianMaj/payload-lexical-typography"
+kategori = "admin"
+
+[[entri]]
+repo = "delmaredigital/payload-puck"
+kategori = "admin"
+
+[[entri]]
+repo = "akhrarovsaid/payload-theme-quantum-leap"
+kategori = "admin"
+
+[[entri]]
+repo = "rubn-g/payloadcms-lexical-ext"
+kategori = "admin"
+
+[[entri]]
+repo = "italodr/payload-plugin-tree-list"
+kategori = "admin"
+
+[[entri]]
+repo = "Metax7/payload-icon-picker"
+kategori = "admin"
+
+[[entri]]
+repo = "Ducksss/payload-components"
+kategori = "admin"
+
+[[entri]]
+repo = "boomworks/payload-plugin-author-fields"
+kategori = "admin"
+
+[[entri]]
+repo = "aritrakrbasu/payload-kanban-board"
+kategori = "admin"
+
+[[entri]]
+repo = "innovixx/payload-color-picker-field"
+kategori = "admin"
+
+[[entri]]
+repo = "WLF-Studios/payload-nested-docs-page-tree"
+kategori = "admin"
+
+[[entri]]
+repo = "VeiaG/payload-cmdk"
+kategori = "admin"
+
+[[entri]]
+repo = "VeiaG/payload-enhanced-sidebar"
+kategori = "admin"
+
+[[entri]]
+repo = "aritrakrbasu/payload-google-map-autocomplete-places"
+kategori = "admin"
+
+[[entri]]
+repo = "liderbektas/payload-theme"
+kategori = "admin"
+
+[[entri]]
+repo = "sitebytom/payload-media-gallery"
+kategori = "admin"
+
+[[entri]]
+repo = "notchris/payload-table-field"
+kategori = "admin"
+
+[[entri]]
+repo = "NouanceLabs/payload-iframe-tabs-plugin"
+kategori = "admin"
+
+[[entri]]
+repo = "delmaredigital/payload-page-tree"
+kategori = "admin"
+
+[[entri]]
+repo = "notchris/payload-label-popover"
+kategori = "admin"
+
+[[entri]]
+repo = "omaroubari/payloadcms-visual-editor"
+kategori = "admin"
+
+[[entri]]
+repo = "notchris/payload-mask-plugin"
+kategori = "admin"
+
+[[entri]]
+repo = "Raffiniert-Media/payload-live-preview-inspector"
+kategori = "admin"
+
+[[entri]]
+repo = "scorpio-99/payload-better-preview"
+kategori = "admin"
+
+[[entri]]
+repo = "adsign/payload-phone-number-plugin"
+kategori = "admin"
+
+[[entri]]
+repo = "erreib/payload-lexical-collaboration"
+kategori = "admin"
+
+[[entri]]
+repo = "pOwn3d/payload-nav-studio"
+kategori = "admin"
+
+[[entri]]
+repo = "maximseshuk/payload-plugin-media-preview"
+kategori = "admin"
+
+[[entri]]
+repo = "what-digital/payload-inline-visual-editor"
+kategori = "admin"
+
+[[entri]]
+repo = "r1tsuu/payload-enchants"
+kategori = "plugin"
+
+[[entri]]
+repo = "shefing/payload-tools"
+kategori = "plugin"
+
+[[entri]]
+repo = "teunmooij/payload-tools"
+kategori = "plugin"
+
+[[entri]]
+repo = "rilrom/payload-bites"
+kategori = "plugin"
+
+[[entri]]
+repo = "DennisSnijder/payload-workflow"
+kategori = "plugin"
+
+[[entri]]
+repo = "jhb-software/payload-plugins"
+kategori = "plugin"
+
+[[entri]]
+repo = "ahmetskilinc/payload-appointments-plugin"
+kategori = "plugin"
+
+[[entri]]
+repo = "oversightstudio/payload-plugins"
+kategori = "plugin"
+
+[[entri]]
+repo = "shaadcode/payload-auditor"
+kategori = "plugin"
+
+[[entri]]
+repo = "Aengz/payload-redis-cache"
+kategori = "plugin"
+
+[[entri]]
+repo = "brachypelma/payload-plugin-comments"
+kategori = "plugin"
+
+[[entri]]
+repo = "aniketpanjwani/payload-plugin-email-newsletter"
+kategori = "plugin"
+
+[[entri]]
+repo = "akhrarovsaid/payload-plugin-pagespeed"
+kategori = "plugin"
+
+[[entri]]
+repo = "ainsleyclark/payload-sitemap-plugin"
+kategori = "plugin"
+
+[[entri]]
+repo = "Newesissrl/payload-exportcollections-plugin"
+kategori = "plugin"
+
+[[entri]]
+repo = "carlosbensant/payload-sync"
+kategori = "plugin"
+
+[[entri]]
+repo = "elghaied/payload-reserve"
+kategori = "plugin"
+
+[[entri]]
+repo = "pro-laico/atomic-payload"
+kategori = "plugin"
+
+[[entri]]
+repo = "wkentdag/payload-plugin-scheduler"
+kategori = "plugin"
+
+[[entri]]
+repo = "focusreactive/payload-plugins"
+kategori = "plugin"
+
+[[entri]]
+repo = "alejotoro-o/payload-real-time"
+kategori = "plugin"
+
+[[entri]]
+repo = "saroroce/payload-extended-import-export-plugin"
+kategori = "plugin"
+
+[[entri]]
+repo = "Crayonan/payload-plugin-ai-localization"
+kategori = "plugin"
+
+[[entri]]
+repo = "tomashco/payload-instagram-plugin"
+kategori = "plugin"
+
+[[entri]]
+repo = "pro-laico/payload-plugins"
+kategori = "plugin"
+
+[[entri]]
+repo = "pOwn3d/payload-seo-analyzer"
+kategori = "plugin"
+
+[[entri]]
+repo = "ianyimi/payloadcms-redis-plugin"
+kategori = "plugin"
+
+[[entri]]
+repo = "superwebpros/payload-lms-plugin"
+kategori = "plugin"
+
+[[entri]]
+repo = "ContiDigital/payload-plugin-ga4-ecommerce"
+kategori = "plugin"
+
+[[entri]]
+repo = "bivouac-studio/payload-revalidate"
+kategori = "plugin"
+
+[[entri]]
+repo = "invakid404/payload-blurhash-plugin"
+kategori = "media"
+
+[[entri]]
+repo = "chladog/payload-webp"
+kategori = "media"
+
+[[entri]]
+repo = "finkinfridom/payload-cloudinary-plugin"
+kategori = "media"
+
+[[entri]]
+repo = "jeanbmar/payload-s3-upload"
+kategori = "media"
+
+[[entri]]
+repo = "maximseshuk/payload-storage-bunny"
+kategori = "media"
+
+[[entri]]
+repo = "NouanceLabs/payload-meilisearch"
+kategori = "media"
+
+[[entri]]
+repo = "rubix-studios-pty-ltd/payload-typesense"
+kategori = "media"
+
+[[entri]]
+repo = "PascalEugster/payloadcms-plugin-image-optimizer"
+kategori = "media"
+
+[[entri]]
+repo = "novanda1/payload-imagekit"
+kategori = "media"
+
+[[entri]]
+repo = "jeanbmar/payload-hash-upload"
+kategori = "media"
+
+[[entri]]
+repo = "cgilly2fast/plugin-adaptive-bitrate-videos"
+kategori = "media"
+
+[[entri]]
+repo = "FrontTribe/typesense-search"
+kategori = "media"
+
+[[entri]]
+repo = "wkentdag/payload-plugin-algolia"
+kategori = "media"
+
+[[entri]]
+repo = "leonardstruck/payload-base64-plugin"
+kategori = "media"
+
+[[entri]]
+repo = "Stianlars1/payload-img-convert"
+kategori = "media"
+
+[[entri]]
+repo = "janbuchar/payload-oapi"
+kategori = "alat"
+
+[[entri]]
+repo = "maximseshuk/payload-plugin-openapi"
+kategori = "alat"
+
+[[entri]]
+repo = "metakraft/payload-doctor"
+kategori = "alat"
+
+[[entri]]
+repo = "Mandala-Software-House/payload-ecommerce-template"
+kategori = "templat"
+
+[[entri]]
+repo = "buildlabs-io/next-ecommerce"
+kategori = "templat"
+
+[[entri]]
+repo = "fluid-design-io/payload-better-auth-starter"
+kategori = "templat"
+
+[[entri]]
+repo = "fusionary/turbo-payload"
+kategori = "templat"
+
+[[entri]]
+repo = "Lambdo-Labs/payloadcms-astro-template"
+kategori = "templat"
+
+[[entri]]
+repo = "buildlabs-io/payload-cms"
+kategori = "templat"
+
+[[entri]]
+repo = "turbopress/turbopress"
+kategori = "templat"
+
+[[entri]]
+repo = "jhb-software/payload-astro-website-template"
+kategori = "templat"
+
+[[entri]]
+repo = "hanielu/sk-trpc-payload"
+kategori = "templat"
+
+[[entri]]
+repo = "mikecebul/bases"
+kategori = "templat"
+
+[[entri]]
+repo = "bapspatil/fumadocs-payload-template"
+kategori = "templat"
+
+[[entri]]
+repo = "abbesm0hamed/paydusa"
+kategori = "templat"
+
+[[entri]]
+repo = "delmaredigital/dd-starter"
+kategori = "templat"
+
+[[entri]]
+repo = "slavanossar/nuxt-payload-template"
+kategori = "templat"
+
+[[entri]]
+repo = "jamesvclements/next-payload-starter"
+kategori = "templat"
+
+[[entri]]
+repo = "casualchic/medusa-payload-cloudflare"
+kategori = "templat"
+
+[[entri]]
+repo = "rpuls/payload-3-boilerplate"
+kategori = "templat"
+
+[[entri]]
+repo = "infonomic/next-payload-monorepo"
+kategori = "templat"
+
+[[entri]]
+repo = "kendevco/spaces"
+kategori = "templat"
+
+[[entri]]
+repo = "frockett/astro-payload-starter"
+kategori = "templat"
+
+[[entri]]
+repo = "Xjectro/payload-cms-boilerplate"
+kategori = "templat"
+
+[[entri]]
+repo = "Mandala-Software-House/payload-turbo"
+kategori = "templat"
+
+[[entri]]
+repo = "movrren/payloadcms-website-template"
+kategori = "templat"
+
+[[entri]]
+repo = "Lostovayne/Payload-CMS-3-Nextjs16-Turso-Cloudflare-R2"
+kategori = "templat"
+
+[[entri]]
+repo = "vulpy-io/vulpy-commerce-core"
+kategori = "aplikasi"
+
+[[entri]]
+repo = "peng-xiao-shuai/next-argots"
+kategori = "aplikasi"
+
+[[entri]]
+repo = "paideia-lms/Paideia"
+kategori = "aplikasi"
+
+[[entri]]
+repo = "vignesh-gupta/digibee-marketplace"
+kategori = "aplikasi"
+
+[[entri]]
+repo = "Hostzero-GmbH/yet-another-status-page"
+kategori = "aplikasi"
+
+[[entri]]
+repo = "n-for-all/amerta"
+kategori = "aplikasi"
+
+[[entri]]
+repo = "Shatlyk1011/food-delivery-app"
+kategori = "aplikasi"
+
+[[entri]]
+repo = "digitalgroundgame/pragmatic-papers"
+kategori = "aplikasi"
