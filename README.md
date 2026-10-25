@@ -148,3 +148,9 @@ A repository is left out when it is archived, a fork, has no description, has fe
 ## Contributing
 
 Suggestions are welcome. See [contributing.md](contributing.md).
+
+## Work with Sasa Teguh
+
+This list is maintained by [Sasa Teguh](https://sasateguh.com), a studio in Malaysia. We build websites that are found on Google and in AI answers, and we set up systems for businesses.
+
+[Book a call](https://sasateguh.com/book) · hello@sasateguh.com · [More from Sasa Teguh](https://github.com/sasateguh)
