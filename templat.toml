@@ -15,7 +15,12 @@ fakta = "★ {bintang} · {lesen} · {aktif}"
 titik = "."
 tiada_lesen = "no license"
 lesen_lain = "other license"
-produk = "Maintained by Sasa Teguh, makers of [{nama}]({url}). It is not ranked in this list."
+produk = "**From the maintainers:** {teks} [Book a call](https://sasateguh.com/book) or email hello@sasateguh.com. It is not ranked in this list."
+produk_lalai = "[Sasa Teguh](https://sasateguh.com) makes [{nama}]({url})."
+kad_tajuk = "Work with Sasa Teguh"
+kad = """This list is maintained by [Sasa Teguh](https://sasateguh.com), a studio in Malaysia. We build websites that are found on Google and in AI answers, and we set up systems for businesses.
+
+[Book a call](https://sasateguh.com/book) · hello@sasateguh.com · [More from Sasa Teguh](https://github.com/sasateguh)"""
 cara_tajuk = "How the ranking works"
 cara = """Every entry is a public GitHub repository. Each week a script reads its stars, last push and license from the GitHub API and sorts each category by
 
@@ -40,7 +45,12 @@ fakta = "★ {bintang} · {lesen} · {aktif}"
 titik = "."
 tiada_lesen = "tiada lesen"
 lesen_lain = "lesen lain"
-produk = "Diselenggara oleh Sasa Teguh, pembuat [{nama}]({url}). Ia tidak dipangkat dalam senarai ini."
+produk = "**Daripada penyelenggara:** {teks} [Tempah panggilan](https://sasateguh.com/ms/book) atau emel hello@sasateguh.com. Ia tidak dipangkat dalam senarai ini."
+produk_lalai = "[Sasa Teguh](https://sasateguh.com/ms) membuat [{nama}]({url})."
+kad_tajuk = "Bekerja dengan Sasa Teguh"
+kad = """Senarai ini diselenggara oleh [Sasa Teguh](https://sasateguh.com/ms), studio di Malaysia. Kami membina laman web yang ditemui di Google dan dalam jawapan AI, dan memasang sistem untuk perniagaan.
+
+[Tempah panggilan](https://sasateguh.com/ms/book) · hello@sasateguh.com · [Lagi daripada Sasa Teguh](https://github.com/sasateguh)"""
 cara_tajuk = "Cara pangkat dikira"
 cara = """Setiap entri ialah repositori GitHub awam. Setiap minggu satu skrip membaca bintang, tolakan terakhir dan lesennya daripada API GitHub, kemudian menyusun setiap kategori mengikut
 

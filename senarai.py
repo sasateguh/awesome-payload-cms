@@ -12,6 +12,7 @@ setiap perkataan awam datang daripada config/templat; mesej dalam fail ini untuk
 from __future__ import annotations
 
 import argparse
+import base64
 import datetime as dt
 import http.client
 import json
@@ -35,7 +36,8 @@ KUNCI_ATAS = {"id", "repo", "en", "ms", "pangkat", "ambang", "bundar_bintang", "
               "kategori", "entri", "cari", "github"}
 TOPIK_GITHUB = re.compile(r"^[a-z0-9][a-z0-9-]{0,49}$")  # peraturan topik GitHub (huruf kecil, ≤ 50 aksara)
 KUNCI_TEMPLAT = ("fail", "lencana", "pautan_bahasa", "kandungan", "entri", "fakta", "titik", "tiada_lesen",
-                 "lesen_lain", "produk", "cara_tajuk", "cara", "sumbang_tajuk", "sumbang", "sumbang_fail")
+                 "lesen_lain", "produk", "produk_lalai", "cara_tajuk", "cara", "sumbang_tajuk", "sumbang", "sumbang_fail",
+                 "kad_tajuk", "kad")
 FAIL_SUMBANG = "contributing.md"  # nama yang awesome-lint `awesome-contributing` wajibkan
 NAMA_REPO = re.compile(r"^[A-Za-z0-9-]+/[A-Za-z0-9._-]+$")
 SEMENTARA = {408, 425, 429, 500, 502, 503, 504}  # D18: gangguan yang biasanya hilang sendiri
@@ -132,6 +134,12 @@ def periksa(cfg: dict, templat: dict) -> list[str]:
     if pr is not None:
         if not str(pr.get("nama", "")).strip() or not str(pr.get("url", "")).startswith("https://"):
             r.append("produk perlu nama + url https://")
+        b = pr.get("bilangan")
+        if b is not None and not (isinstance(b, dict) and all(isinstance(b.get(k), str) and b[k] for k in ("fail", "senarai", "ada"))):
+            r.append("produk.bilangan perlu fail + senarai + ada")
+        for bh in BAHASA:
+            if "{bilangan}" in str(pr.get(bh, "")) and b is None:
+                r.append(f"produk.{bh} memakai {{bilangan}} tanpa produk.bilangan")
         if pr.get("syarat") not in SYARAT:
             r.append(f"produk.syarat mesti salah satu {SYARAT}")
         if pr.get("syarat") == "repo_awam" and not NAMA_REPO.match(str(pr.get("repo", ""))):
@@ -263,6 +271,18 @@ def syarat_produk(pr: dict | None, ambil: AmbilJson, muat: MuatLaman) -> bool:
         return False
 
 
+def bilangan_produk(pr: dict, ambil: AmbilJson) -> int | None:
+    """Angka dalam blok produk dikira daripada repo produk itu sendiri (cth adapter dalam registry bayarkit), tidak ditaip.
+    Gagal membaca = None → blok tidak dipapar (gagal-tertutup: tiada angka basi atau rekaan)."""
+    b = pr["bilangan"]
+    try:
+        isi = ambil(f"{API}/repos/{pr['repo']}/contents/{b['fail']}")
+        data = json.loads(base64.b64decode(isi["content"]).decode("utf-8"))
+        return sum(1 for x in data[b["senarai"]] if x.get(b["ada"]))
+    except (RalatSenarai, *RALAT_RANGKAIAN, KeyError, ValueError, TypeError, AttributeError):
+        return None
+
+
 def laman_boleh_indeks(url: str, muat: MuatLaman) -> bool:
     kod, peng, html = muat(url)
     if kod != 200 or "noindex" in str({k.lower(): v for k, v in peng.items()}.get("x-robots-tag", "")).lower():
@@ -332,7 +352,7 @@ def slug(tajuk: str) -> str:
     return re.sub(r"[^\w\- ]", "", tajuk.strip().lower()).replace(" ", "-")
 
 
-def jana(cfg: dict, templat: dict, entri: list[Entri], produk: bool) -> dict[str, str]:
+def jana(cfg: dict, templat: dict, entri: list[Entri], produk: bool | dict) -> dict[str, str]:
     """{nama fail: kandungan} untuk setiap bahasa. Tiada masa jana dalam teks — fail berubah hanya bila fakta berubah."""
     p, a = cfg["pangkat"], cfg["ambang"]
     bundar = cfg.get("bundar_bintang", 1)
@@ -357,10 +377,12 @@ def jana(cfg: dict, templat: dict, entri: list[Entri], produk: bool) -> dict[str
         tetap = [(t["cara_tajuk"], cara)]
         isi = [f"# {s['tajuk']} {t['lencana']}", t["pautan_bahasa"], f"> {s['pembuka']}"]
         if produk:
-            isi.append(t["produk"].format(nama=cfg["produk"]["nama"], url=cfg["produk"]["url"]))
+            pr = cfg["produk"]
+            ganti = {"nama": pr["nama"], "url": pr["url"], **(produk if isinstance(produk, dict) else {})}
+            isi.append(t["produk"].format(teks=(pr.get(b) or t["produk_lalai"]).format(**ganti)))
         isi.append(f"## {t['kandungan']}")
         isi.append("\n".join(f"- [{h}](#{slug(h)})" for h, _ in bahagian + tetap))
-        for h, badan in bahagian + tetap + [(t["sumbang_tajuk"], t["sumbang"])]:
+        for h, badan in bahagian + tetap + [(t["sumbang_tajuk"], t["sumbang"]), (t["kad_tajuk"], t["kad"])]:
             isi += [f"## {h}", badan]
         keluar[t["fail"]] = "\n\n".join(isi) + "\n"
     # Satu contributing.md dua bahasa (awesome-lint mewajibkan nama ini); kriteria = nombor config yang sama.
@@ -406,8 +428,11 @@ def bina(cfg: dict, templat: dict, keluar: Path, ambil: AmbilJson, muat: MuatLam
     berpangkat = pangkat(lulus, cfg, hari_ini)
     kekal = {id(e) for e in berpangkat}
     buang += [(e.nama, f"tiada tolakan > {cfg['ambang']['hari_tidak_aktif']} hari") for e in lulus if id(e) not in kekal]
-    pr = syarat_produk(cfg.get("produk"), ambil, muat)
-    return Hasil(berpangkat, buang, pr, tulis(keluar, jana(cfg, templat, berpangkat, pr)))
+    pr: bool | dict = syarat_produk(cfg.get("produk"), ambil, muat)
+    if pr and cfg["produk"].get("bilangan"):
+        n = bilangan_produk(cfg["produk"], ambil)
+        pr = {"bilangan": n} if n else False
+    return Hasil(berpangkat, buang, bool(pr), tulis(keluar, jana(cfg, templat, berpangkat, pr)))
 
 
 def token() -> str | None:
