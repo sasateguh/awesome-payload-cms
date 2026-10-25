@@ -148,6 +148,8 @@ Repositori tidak disenaraikan bila ia diarkib, fork, tiada penerangan, kurang da
 
 ## Bekerja dengan Sasa Teguh
 
+[![Bekerja dengan Sasa Teguh: tempah panggilan](https://raw.githubusercontent.com/sasateguh/.github/main/assets/work-with-sasa-teguh.png)](https://sasateguh.com/ms/book)
+
 Senarai ini diselenggara oleh [Sasa Teguh](https://sasateguh.com/ms), studio di Malaysia. Kami membina laman web yang ditemui di Google dan dalam jawapan AI, dan memasang sistem untuk perniagaan.
 
 [Tempah panggilan](https://sasateguh.com/ms/book) · hello@sasateguh.com · [Lagi daripada Sasa Teguh](https://github.com/sasateguh)
