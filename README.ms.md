@@ -115,7 +115,7 @@
 - [fluid-design-io/payload-better-auth-starter](https://github.com/fluid-design-io/payload-better-auth-starter) - ★ 120+ · lesen lain · 2026-10 — A production-ready PayloadCMS starter with Better Auth, modern UI components, and full-stack development tools.
 - [buildlabs-io/payload-cms](https://github.com/buildlabs-io/payload-cms) - ★ 80+ · MIT · 2026-10 — Stop building CMS infrastructure from scratch. This starter gives you a full content platform — page builder, blog, forms, redirects, media library, live preview, and SEO — all wired up with Payload 3 + Next.js 16. Just clone, configure, and ship.
 - [jhb-software/payload-astro-website-template](https://github.com/jhb-software/payload-astro-website-template) - ★ 40+ · tiada lesen · 2026-10 — A fully featured template for building performant and scalable content-driven websites with Payload CMS and Astro.
-- [abbesm0hamed/paydusa](https://github.com/abbesm0hamed/paydusa) - ★ 30+ · MIT · 2026-10 — Next.js 16.3+, Medusajs 2+ and payloadcms 3+ ecommerce template.
+- [abbesm0hamed/paydusa](https://github.com/abbesm0hamed/paydusa) - ★ 30+ · MIT · 2026-10 — Next.js 16.4+, Medusajs 2+ and payloadcms 4+ ecommerce template.
 - [mikecebul/bases](https://github.com/mikecebul/bases) - ★ 40+ · MIT · 2026-10 — This is a small business marketing website that is my main template.
 - [delmaredigital/dd-starter](https://github.com/delmaredigital/dd-starter) - ★ 30+ · tiada lesen · 2026-10 — Payload CMS starter template with Puck visual page editing, page-tree, and Better Auth.
 - [slavanossar/nuxt-payload-template](https://github.com/slavanossar/nuxt-payload-template) - ★ 30+ · tiada lesen · 2026-10 — nuxt 4 + payload 3 + typescript + pinia + tailwind.
