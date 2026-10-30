@@ -33,7 +33,7 @@
 ## Pengesahan dan kawalan akses
 
 - [payload-auth/payload-auth](https://github.com/payload-auth/payload-auth) - ★ 340+ · MIT · 2026-08 — Robust Payload CMS plugin to integrate Better-Auth into your projects.
-- [GeorgeHulpoi/payload-totp](https://github.com/GeorgeHulpoi/payload-totp) - ★ 160+ · tiada lesen · 2026-10 — Add an extra security layer to PayloadCMS using a Time-based One-time Password (TOTP).
+- [GeorgeHulpoi/payload-totp](https://github.com/GeorgeHulpoi/payload-totp) - ★ 160+ · MIT · 2026-10 — Add an extra security layer to PayloadCMS using a Time-based One-time Password (TOTP).
 - [UPDOT/payload-auth-plugin](https://github.com/UPDOT/payload-auth-plugin) - ★ 310 · MIT · 2026-05 — Authentication plugin for Payload CMS.
 - [CrawlerCode/payload-authjs](https://github.com/CrawlerCode/payload-authjs) - ★ 200+ · MIT · 2026-05 — A Payload CMS 3 plugin for Auth.js/NextAuth 5.
 - [delmaredigital/payload-better-auth](https://github.com/delmaredigital/payload-better-auth) - ★ 70+ · MIT · 2026-10 — Better Auth adapter and plugins for Payload CMS.
@@ -54,8 +54,8 @@
 - [Metax7/payload-icon-picker](https://github.com/Metax7/payload-icon-picker) - ★ 40+ · MIT · 2026-10 — A dynamic icon picker field plugin for Payload CMS 3.x supporting custom icon packs, searching, and custom SVG rendering.
 - [WLF-Studios/payload-nested-docs-page-tree](https://github.com/WLF-Studios/payload-nested-docs-page-tree) - ★ 30+ · MIT · 2026-10 — Page tree plugin for Payload nested docs collections.
 - [VeiaG/payload-enhanced-sidebar](https://github.com/VeiaG/payload-enhanced-sidebar) - ★ 20+ · tiada lesen · 2026-10 — An enhanced sidebar plugin for Payload CMS that adds a tabbed navigation system to organize collections and globals into logical groups.
+- [liderbektas/payload-theme](https://github.com/liderbektas/payload-theme) - ★ 20+ · MIT · 2026-10 — A shadcn-style theme for the Payload CMS admin panel — dashboard with sparklines, ⌘K palette, icon sidebar, live customizer, dark mode. One accent color, 2 lines of setup.
 - [aritrakrbasu/payload-google-map-autocomplete-places](https://github.com/aritrakrbasu/payload-google-map-autocomplete-places) - ★ 20+ · MIT · 2026-09 — A plugin for payload cms for google maps auto complete.
-- [liderbektas/payload-theme](https://github.com/liderbektas/payload-theme) - ★ 20+ · MIT · 2026-09 — A shadcn-style theme for the Payload CMS admin panel — dashboard with sparklines, ⌘K palette, icon sidebar, live customizer, dark mode. One accent color, 2 lines of setup.
 - [VeiaG/payload-cmdk](https://github.com/VeiaG/payload-cmdk) - ★ 30 · tiada lesen · 2026-08 — A powerful command menu plugin for Payload CMS that enhances navigation and accessibility within the admin panel with keyboard shortcuts.
 - [Raffiniert-Media/payload-live-preview-inspector](https://github.com/Raffiniert-Media/payload-live-preview-inspector) - ★ 10+ · MIT · 2026-10 — Storyblok-style click-to-scroll for Payload CMS Live Preview — hover a component in the preview, click it, and the admin edit form scrolls to, expands, and flashes the matching field.
 - [adsign/payload-phone-number-plugin](https://github.com/adsign/payload-phone-number-plugin) - ★ 10+ · MIT · 2026-10 — Phone Number Plugin for Payload CMS.
@@ -65,8 +65,8 @@
 - [pOwn3d/payload-nav-studio](https://github.com/pOwn3d/payload-nav-studio) - ★ 10+ · MIT · 2026-10 — Payload CMS plugin — customizable admin sidebar navigation with drag & drop, per-user preferences, 70+ icons, i18n ready.
 - [AdrianMaj/payload-lexical-typography](https://github.com/AdrianMaj/payload-lexical-typography) - ★ 100+ · MIT · 2025-11 — Payload plugin for extending lexical typography options (Text color, Font size, Letter spacing, Line height, Font Family).
 - [scorpio-99/payload-better-preview](https://github.com/scorpio-99/payload-better-preview) - ★ 10+ · MIT · 2026-06 — Better live preview for Payload CMS — hover highlighting with block identification, bi-directional admin/preview sync, and smooth transitions.
+- [what-digital/payload-inline-visual-editor](https://github.com/what-digital/payload-inline-visual-editor) - ★ 10+ · MIT · 2026-07 — Visual editing for Payload CMS 3.x - edit fields and reorder blocks directly on your site in Live Preview. Payload plugin + zero-dependency frontend SDK for React / Next.js.
 - [omaroubari/payloadcms-visual-editor](https://github.com/omaroubari/payloadcms-visual-editor) - ★ 10+ · tiada lesen · 2026-05 — Edit CMS content on-page. Annotate everything else. A Payload CMS plugin for inline editing and visual feedback.
-- [what-digital/payload-inline-visual-editor](https://github.com/what-digital/payload-inline-visual-editor) - ★ 10 · MIT · 2026-07 — Visual editing for Payload CMS 3.x - edit fields and reorder blocks directly on your site in Live Preview. Payload plugin + zero-dependency frontend SDK for React / Next.js.
 - [italodr/payload-plugin-tree-list](https://github.com/italodr/payload-plugin-tree-list) - ★ 50 · MIT · 2025-11 — A plugin for Payload CMS that adds a collapsible Tree list view.
 - [sitebytom/payload-media-gallery](https://github.com/sitebytom/payload-media-gallery) - ★ 20+ · tiada lesen · 2026-02 — Additional layout views for media collection with lightbox gallery, quick edit, multi-select and more.
 
@@ -76,7 +76,7 @@
 - [jhb-software/payload-plugins](https://github.com/jhb-software/payload-plugins) - ★ 100+ · tiada lesen · 2026-10 — A collection of powerful plugins designed to enhance Payload CMS.
 - [rilrom/payload-bites](https://github.com/rilrom/payload-bites) - ★ 110+ · MIT · 2026-09 — Collection of various bite-sized Payload v3 plugins and tools.
 - [oversightstudio/payload-plugins](https://github.com/oversightstudio/payload-plugins) - ★ 80+ · MIT · 2026-10 — A collection of Payload plugins made by OVERSIGHT.
-- [shaadcode/payload-auditor](https://github.com/shaadcode/payload-auditor) - ★ 70+ · MIT · 2026-10 — Payload CMS plugin for event tracking, auditing, and security. Monitor activities and analyze user behavior.
+- [shaadcode/payload-auditor](https://github.com/shaadcode/payload-auditor) - ★ 80 · MIT · 2026-10 — Payload CMS plugin for event tracking, auditing, and security. Monitor activities and analyze user behavior.
 - [ahmetskilinc/payload-appointments-plugin](https://github.com/ahmetskilinc/payload-appointments-plugin) - ★ 100+ · tiada lesen · 2026-08 — A plugin to add appointment scheduling to a PayloadCMS App.
 - [elghaied/payload-reserve](https://github.com/elghaied/payload-reserve) - ★ 30+ · MIT · 2026-10 — A full-featured, reusable reservation/booking plugin for Payload CMS 3.x. Designed for salons, clinics, consultants, and any business that needs appointment scheduling with conflict prevention, status workflows, and admin UI components.
 - [focusreactive/payload-plugins](https://github.com/focusreactive/payload-plugins) - ★ 30 · MIT · 2026-10 — Open-source Payload CMS plugins: A/B testing, GA4 analytics, live SEO analysis, content presets, inline comments, AI translation and scheduled publishing, plus the Ideal CMS starter.
