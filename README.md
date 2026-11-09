@@ -20,13 +20,13 @@
 
 ## Official
 
-- [payloadcms/payload](https://github.com/payloadcms/payload) - ★ 45.6k+ · MIT · 2026-11 — Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.
+- [payloadcms/payload](https://github.com/payloadcms/payload) - ★ 45.7k+ · MIT · 2026-11 — Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.
 - [payloadcms/website](https://github.com/payloadcms/website) - ★ 640+ · MIT · 2026-11 — The official Next.js website for payloadcms.com.
 - [payloadcms/skills](https://github.com/payloadcms/skills) - ★ 170+ · no license · 2026-08 — Payload Skills to assist AI agents.
 
 ## AI and agents
 
-- [ashbuilds/payload-ai](https://github.com/ashbuilds/payload-ai) - ★ 560+ · other license · 2026-10 — AI Plugin is a powerful extension for the Payload CMS, integrating advanced AI capabilities to enhance content creation and management.
+- [ashbuilds/payload-ai](https://github.com/ashbuilds/payload-ai) - ★ 560+ · other license · 2026-11 — AI Plugin is a powerful extension for the Payload CMS, integrating advanced AI capabilities to enhance content creation and management.
 - [techiejd/payloadcms-vectorize](https://github.com/techiejd/payloadcms-vectorize) - ★ 90+ · MIT · 2026-06 — A plugin to vectorize collections for RAG in Payload 3.0.
 - [aamdmn/payload-agent](https://github.com/aamdmn/payload-agent) - ★ 10+ · MIT · 2026-09 — control PayloadCMS with AI agent from Slack, Telegram, Whatsapp and more.
 
@@ -35,8 +35,8 @@
 - [payload-auth/payload-auth](https://github.com/payload-auth/payload-auth) - ★ 340+ · MIT · 2026-08 — Robust Payload CMS plugin to integrate Better-Auth into your projects.
 - [GeorgeHulpoi/payload-totp](https://github.com/GeorgeHulpoi/payload-totp) - ★ 160+ · MIT · 2026-10 — Add an extra security layer to PayloadCMS using a Time-based One-time Password (TOTP).
 - [UPDOT/payload-auth-plugin](https://github.com/UPDOT/payload-auth-plugin) - ★ 300+ · MIT · 2026-05 — Authentication plugin for Payload CMS.
-- [CrawlerCode/payload-authjs](https://github.com/CrawlerCode/payload-authjs) - ★ 200+ · MIT · 2026-05 — A Payload CMS 3 plugin for Auth.js/NextAuth 5.
 - [delmaredigital/payload-better-auth](https://github.com/delmaredigital/payload-better-auth) - ★ 70+ · MIT · 2026-11 — Better Auth adapter and plugins for Payload CMS.
+- [CrawlerCode/payload-authjs](https://github.com/CrawlerCode/payload-authjs) - ★ 200+ · MIT · 2026-05 — A Payload CMS 3 plugin for Auth.js/NextAuth 5.
 - [WilsonLe/payload-oauth2](https://github.com/WilsonLe/payload-oauth2) - ★ 190+ · MIT · 2026-05 — Plugin for PayloadCMS to integrate OAuth2.
 - [thgh/payload-plugin-oauth](https://github.com/thgh/payload-plugin-oauth) - ★ 110+ · MIT · 2026-05 — Add oAuth sign in to your Payload CMS site.
 - [b3nab/payload-better-auth](https://github.com/b3nab/payload-better-auth) - ★ 70+ · AGPL-3.0 · 2026-07 — Better Auth, one plugin away from PayloadCMS.
@@ -48,24 +48,23 @@
 
 ## Admin panel and editing
 
-- [delmaredigital/payload-puck](https://github.com/delmaredigital/payload-puck) - ★ 100+ · MIT · 2026-11 — Puck visual page builder plugin for Payload CMS.
+- [delmaredigital/payload-puck](https://github.com/delmaredigital/payload-puck) - ★ 110+ · MIT · 2026-11 — Puck visual page builder plugin for Payload CMS.
 - [scorpio-99/payload-better-editor](https://github.com/scorpio-99/payload-better-editor) - ★ 110+ · MIT · 2026-09 — Block editor plugin for Payload CMS that adds a side-by-side live-preview iframe and sidebar to the edit view.
 - [Ducksss/payload-components](https://github.com/Ducksss/payload-components) - ★ 40+ · MIT · 2026-11 — Payload Components: registry-backed Payload CMS blocks installed wired, not pasted.
 - [WLF-Studios/payload-nested-docs-page-tree](https://github.com/WLF-Studios/payload-nested-docs-page-tree) - ★ 30+ · MIT · 2026-11 — Page tree plugin for Payload nested docs collections.
 - [VeiaG/payload-enhanced-sidebar](https://github.com/VeiaG/payload-enhanced-sidebar) - ★ 30 · no license · 2026-11 — An enhanced sidebar plugin for Payload CMS that adds a tabbed navigation system to organize collections and globals into logical groups.
 - [liderbektas/payload-theme](https://github.com/liderbektas/payload-theme) - ★ 20+ · MIT · 2026-10 — A shadcn-style theme for the Payload CMS admin panel — dashboard with sparklines, ⌘K palette, icon sidebar, live customizer, dark mode. One accent color, 2 lines of setup.
 - [aritrakrbasu/payload-google-map-autocomplete-places](https://github.com/aritrakrbasu/payload-google-map-autocomplete-places) - ★ 20+ · MIT · 2026-09 — A plugin for payload cms for google maps auto complete.
+- [delmaredigital/payload-page-tree](https://github.com/delmaredigital/payload-page-tree) - ★ 10+ · MIT · 2026-11 — Payload CMS plugin for folder-based hierarchical URL slugs with visual tree management.
 - [VeiaG/payload-cmdk](https://github.com/VeiaG/payload-cmdk) - ★ 30 · no license · 2026-08 — A powerful command menu plugin for Payload CMS that enhances navigation and accessibility within the admin panel with keyboard shortcuts.
 - [Raffiniert-Media/payload-live-preview-inspector](https://github.com/Raffiniert-Media/payload-live-preview-inspector) - ★ 10+ · MIT · 2026-11 — Storyblok-style click-to-scroll for Payload CMS Live Preview — hover a component in the preview, click it, and the admin edit form scrolls to, expands, and flashes the matching field.
 - [adsign/payload-phone-number-plugin](https://github.com/adsign/payload-phone-number-plugin) - ★ 10+ · MIT · 2026-10 — Phone Number Plugin for Payload CMS.
 - [maximseshuk/payload-plugin-media-preview](https://github.com/maximseshuk/payload-plugin-media-preview) - ★ 10+ · MIT · 2026-11 — Payload plugin for file previews in the admin panel: images, video, audio, PDF, text, code, CSV and Office files.
-- [delmaredigital/payload-page-tree](https://github.com/delmaredigital/payload-page-tree) - ★ 10+ · MIT · 2026-09 — Payload CMS plugin for folder-based hierarchical URL slugs with visual tree management.
 - [pOwn3d/payload-nav-studio](https://github.com/pOwn3d/payload-nav-studio) - ★ 10+ · MIT · 2026-10 — Payload CMS plugin — customizable admin sidebar navigation with drag & drop, per-user preferences, 70+ icons, i18n ready.
 - [innovixx/payload-color-picker-field](https://github.com/innovixx/payload-color-picker-field) - ★ 40+ · MIT · 2026-04 — The Payload Color Picker that enables an easy color selection field for your Payload projects.
 - [scorpio-99/payload-better-preview](https://github.com/scorpio-99/payload-better-preview) - ★ 10+ · MIT · 2026-06 — Better live preview for Payload CMS — hover highlighting with block identification, bi-directional admin/preview sync, and smooth transitions.
 - [what-digital/payload-inline-visual-editor](https://github.com/what-digital/payload-inline-visual-editor) - ★ 10+ · MIT · 2026-07 — Visual editing for Payload CMS 3.x - edit fields and reorder blocks directly on your site in Live Preview. Payload plugin + zero-dependency frontend SDK for React / Next.js.
 - [omaroubari/payloadcms-visual-editor](https://github.com/omaroubari/payloadcms-visual-editor) - ★ 10+ · no license · 2026-05 — Edit CMS content on-page. Annotate everything else. A Payload CMS plugin for inline editing and visual feedback.
-- [italodr/payload-plugin-tree-list](https://github.com/italodr/payload-plugin-tree-list) - ★ 50 · MIT · 2025-11 — A plugin for Payload CMS that adds a collapsible Tree list view.
 - [sitebytom/payload-media-gallery](https://github.com/sitebytom/payload-media-gallery) - ★ 20+ · no license · 2026-02 — Additional layout views for media collection with lightbox gallery, quick edit, multi-select and more.
 
 ## Feature plugins
@@ -108,9 +107,9 @@
 
 ## Templates and starters
 
-- [buildlabs-io/next-ecommerce](https://github.com/buildlabs-io/next-ecommerce) - ★ 160+ · MIT · 2026-10 — Free, modern, and accessible e-commerce platform built with Next.js 16 and Payload CMS. Features a dynamic storefront, flexible content management, and a production-ready commerce flow.
+- [buildlabs-io/next-ecommerce](https://github.com/buildlabs-io/next-ecommerce) - ★ 170+ · MIT · 2026-10 — Free, modern, and accessible e-commerce platform built with Next.js 16 and Payload CMS. Features a dynamic storefront, flexible content management, and a production-ready commerce flow.
 - [fluid-design-io/payload-better-auth-starter](https://github.com/fluid-design-io/payload-better-auth-starter) - ★ 120+ · other license · 2026-10 — A production-ready PayloadCMS starter with Better Auth, modern UI components, and full-stack development tools.
-- [buildlabs-io/payload-cms](https://github.com/buildlabs-io/payload-cms) - ★ 90+ · MIT · 2026-10 — Stop building CMS infrastructure from scratch. This starter gives you a full content platform — page builder, blog, forms, redirects, media library, live preview, and SEO — all wired up with Payload 3 + Next.js 16. Just clone, configure, and ship.
+- [buildlabs-io/payload-cms](https://github.com/buildlabs-io/payload-cms) - ★ 100+ · MIT · 2026-10 — Stop building CMS infrastructure from scratch. This starter gives you a full content platform — page builder, blog, forms, redirects, media library, live preview, and SEO — all wired up with Payload 3 + Next.js 16. Just clone, configure, and ship.
 - [jhb-software/payload-astro-website-template](https://github.com/jhb-software/payload-astro-website-template) - ★ 40+ · no license · 2026-11 — A fully featured template for building performant and scalable content-driven websites with Payload CMS and Astro.
 - [abbesm0hamed/paydusa](https://github.com/abbesm0hamed/paydusa) - ★ 30+ · MIT · 2026-11 — Next.js 16.4+, Medusajs 2+ and payloadcms 4+ ecommerce template.
 - [delmaredigital/dd-starter](https://github.com/delmaredigital/dd-starter) - ★ 30+ · no license · 2026-10 — Payload CMS starter template with Puck visual page editing, page-tree, and Better Auth.
@@ -128,7 +127,7 @@
 ## Apps built with Payload
 
 - [vulpy-io/vulpy-commerce-core](https://github.com/vulpy-io/vulpy-commerce-core) - ★ 120+ · Apache-2.0 · 2026-09 — AI-run shop: Medusa v2 + Next.js + Payload CMS operated by Fox, the built-in AI assistant. Open-source free edition of Vulpy Commerce.
-- [Hostzero-GmbH/yet-another-status-page](https://github.com/Hostzero-GmbH/yet-another-status-page) - ★ 40+ · MIT · 2026-10 — A modern, open-source status page built with Next.js and PayloadCMS, designed for flexible and reliable infrastructure monitoring.
+- [Hostzero-GmbH/yet-another-status-page](https://github.com/Hostzero-GmbH/yet-another-status-page) - ★ 40+ · MIT · 2026-11 — A modern, open-source status page built with Next.js and PayloadCMS, designed for flexible and reliable infrastructure monitoring.
 - [n-for-all/amerta](https://github.com/n-for-all/amerta) - ★ 30+ · MIT · 2026-08 — Amerta is a modern, developer-first e-commerce framework built on top of Payload CMS and Next.js. It is designed to replace legacy platforms with a fully typed, scalable architecture that provides absolute control over the storefront and admin experience.
 - [digitalgroundgame/pragmatic-papers](https://github.com/digitalgroundgame/pragmatic-papers) - ★ 10+ · no license · 2026-11 — A news website and content management system for The Pragmatic Papers.
 - [peng-xiao-shuai/next-argots](https://github.com/peng-xiao-shuai/next-argots) - ★ 110 · MIT · 2025-12 — 🥰🥰A free chat platform that encrypts conversation information throughout the process to protect your security and privacy. No information is collected from you and no permissions are required from you.End of chat Clear all records✨✨.
