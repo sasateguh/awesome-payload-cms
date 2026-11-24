@@ -52,8 +52,8 @@
 - [scorpio-99/payload-better-editor](https://github.com/scorpio-99/payload-better-editor) - ★ 110+ · MIT · 2026-09 — Block editor plugin for Payload CMS that adds a side-by-side live-preview iframe and sidebar to the edit view.
 - [Ducksss/payload-components](https://github.com/Ducksss/payload-components) - ★ 50+ · MIT · 2026-11 — Payload Components: registry-backed Payload CMS blocks installed wired, not pasted.
 - [liderbektas/payload-theme](https://github.com/liderbektas/payload-theme) - ★ 30+ · MIT · 2026-11 — A shadcn-style theme for the Payload CMS admin panel — dashboard with sparklines, ⌘K palette, icon sidebar, live customizer, dark mode. One accent color, 2 lines of setup.
-- [WLF-Studios/payload-nested-docs-page-tree](https://github.com/WLF-Studios/payload-nested-docs-page-tree) - ★ 30+ · MIT · 2026-11 — Page tree plugin for Payload nested docs collections.
 - [VeiaG/payload-enhanced-sidebar](https://github.com/VeiaG/payload-enhanced-sidebar) - ★ 30+ · tiada lesen · 2026-11 — An enhanced sidebar plugin for Payload CMS that adds a tabbed navigation system to organize collections and globals into logical groups.
+- [WLF-Studios/payload-nested-docs-page-tree](https://github.com/WLF-Studios/payload-nested-docs-page-tree) - ★ 30+ · MIT · 2026-11 — Page tree plugin for Payload nested docs collections.
 - [VeiaG/payload-cmdk](https://github.com/VeiaG/payload-cmdk) - ★ 30+ · tiada lesen · 2026-11 — A powerful command menu plugin for Payload CMS that enhances navigation and accessibility within the admin panel with keyboard shortcuts.
 - [aritrakrbasu/payload-google-map-autocomplete-places](https://github.com/aritrakrbasu/payload-google-map-autocomplete-places) - ★ 20+ · MIT · 2026-09 — A plugin for payload cms for google maps auto complete.
 - [delmaredigital/payload-page-tree](https://github.com/delmaredigital/payload-page-tree) - ★ 10+ · MIT · 2026-11 — Payload CMS plugin for folder-based hierarchical URL slugs with visual tree management.
